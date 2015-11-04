@@ -16,6 +16,3 @@ script:
   - javac -cp .:./bin/ -d ./bin/ ./src/Models/Subject.java
   - javac -cp .:./bin/ -d ./bin/ ./src/Models/TabModels.java
   - javac -cp .:./bin/ -d ./bin/ ./src/Views/TabAbout.java
-  - javac -cp .:./bin/ -d ./bin/ ./src/Views/TabGroups.java
-  - javac -cp .:./bin/ -d ./bin/ ./src/Views/TabParticipants.java
-  - javac -cp .:./bin/ -d ./bin/ ./src/Views/TabSubjects.java
