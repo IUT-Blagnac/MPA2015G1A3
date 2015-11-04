@@ -6,3 +6,16 @@ script:
   - python -V
   - python ./tools/asciidoc-8.6.9/asciidoc.py --version
   - python ./tools/asciidoc-8.6.9/asciidoc.py -a iconsdir=./tools/asciidoc-8.6.9/images/icons -o ./srcdoc/docUtilisateur.html ./srcdoc/docUtilisateur.txt
+
+  - javac -cp .;./bin/ -d ./bin/ ./src/Models/CSVReader.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Models/CSVWriter.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Tests/OPTIlibTest.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Models/Participant.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Models/Project.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Models/Student.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Models/Subject.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Models/TabModels.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Views/TabAbout.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Views/TabGroups.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Views/TabParticipants.java
+  - javac -cp .;./bin/ -d ./bin/ ./src/Views/TabSubjects.java
