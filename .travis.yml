@@ -9,7 +9,6 @@ script:
 
   - javac -cp .:./bin/ -d ./bin/ ./src/Models/CSVReader.java
   - javac -cp .:./bin/ -d ./bin/ ./src/Models/CSVWriter.java
-  - javac -cp .:./bin/ -d ./bin/ ./src/Tests/OPTIlibTest.java
   - javac -cp .:./bin/ -d ./bin/ ./src/Models/Participant.java
   - javac -cp .:./bin/ -d ./bin/ ./src/Models/Project.java
   - javac -cp .:./bin/ -d ./bin/ ./src/Models/Student.java
