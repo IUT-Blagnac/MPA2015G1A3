@@ -1,0 +1,119 @@
+﻿= Technical documentation SPRINT 3
+:Author:  Groupe 1A3 - University Toulouse 2 - IUT de Blagnac - DUT INFO S3/MPA
+:doctitle: Technical documentation of project OPTI - Sprint 3
+:slideshowlocation: Your computer
+:copyright: {date={localdate}}, {slideshowlocation} *** {author} *** Powered by AsciiDoc and W3C Slidy &#169; 
+
+include::docConf.txt[]
+
+- BERTIN Mathieu
+- BOURGUET Guillaume
+- BOUVERON Maxime
+- HELLER Tanguy
+
+== Backlogs at the begining of the sprint 3
+
+
+- The initiales functionalities are the following :
+
+
+	. List of subjects of "projet tuteuré" of the year
+	.. Create/Delete/Modify a subject
+	.. Listing the subjects using a filter
+	. Wishes of subjects by students teams
+  .. Define students teams
+	.. Link a student with a team
+	.. Define the wishes of a team
+	.. etc...
+	. Assign projects to students teams
+	.. Define (assign) a subject to a team
+	.. Listing the number of wishes by rank for a given subject
+	.. Listing for a given team the number of "competitors" per rank of wishe.
+	.. Listing the subjects taken / free
+	.. Listing the teams taken / free
+	.. Auto-calculation of pre-allocation "at the best" for a set of free teams
+	.. etc...
+	. Allocation of supervisors for each subject
+	.. Define the supervisor for a specific subject
+	.. Listing of subjects by supervisors
+	.. Listing of supervisors by projects
+	.. etc...
+
+
+
+== Functional tests plans
+
+- Step 1 : Launch the application from the command editor :
+
+image::commande.PNG[]
+
+This window must open :
+
+image::LOAD1.PNG[]
+
+- Step 2 : Check that the links are the good ones or clic on "Load"
+
+image::LOAD2.PNG[]
+
+This window must open :
+
+image::LOAD4.PNG[]
+
+Select the CSV file that you want and double clic on it :
+
+image::LOAD5.PNG[]
+
+The link has changed :
+
+image::LOAD6.PNG[]
+
+you can delete the link thanks to the button "Delete" :
+
+image::LOAD3.PNG[]
+
+- Step 3 : Clic on "create" to launch OPTI with the selected links :
+
+image::LOAD7.PNG[]
+
+- Step 4 : Select the 15nth subject then clic on the "Delete" button, this line must disappear :
+
+image::delete.PNG[]
+
+- Step 5 : Clic on the "Add" button, an additional empty line must appear :
+
+image::add.PNG[]
+
+- Step 6 : Clic on a particular cell to modify it, for example change the text in the last line like right here :
+
+image::save.PNG[]
+
+- Step 7 : Clic on the "Save" button :
+
+This window must open :
+
+image::SAVE1.PNG[]
+
+Now, double clic on the file that you want to overwrite or write the name of the file that you want to create and clic on "open" (don't forget to writte ".csv" at the end of the file name)
+
+image::SAVE2.PNG[]
+
+- Step 8 : Clic on the "Ouvrir" button :
+
+image::SAVE4.PNG[]
+
+If the file already exists, a message will appear, clic on OK if you want to overwrite:
+
+image::SAVE5.PNG[]
+
+The file is saved :
+
+image::SAVE6.PNG[]
+
+== Conception
+
+image::diag0.png[]
+
+== Documentation java
+
+Voir link:{doc}index.html[Javadoc.html]
+

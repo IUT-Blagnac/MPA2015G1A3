@@ -4,13 +4,94 @@
 '-----------------------------------
 @startuml
 '-----------------------------------
-
-class PROFS {
-        NOM
-        PRENOM
-        SEVERITE
+class OPTI{
+	
 }
 
+class LoadWindow{
+	
+}
+
+class MainWindow{
+	
+}
+
+class TabAbout{
+	
+}
+
+class TabGroups{
+	
+}
+
+class TabParticipants{
+	
+}
+
+class TabSubjects{
+	
+}
+
+class ViewWindow{
+}
+
+class AddWindow{
+}
+
+class TabModels{
+
+}
+
+class CSVReader{
+}
+
+class CSVWriter{
+}
+
+class Participant{
+}
+
+class Project{
+}
+
+class Student{
+}
+
+class Subject{
+}
+
+class ModifyWindow{
+}
+
+
+
+MainWindow .right.> TabGroups
+MainWindow .right.> TabParticipants
+MainWindow .right.> TabSubjects
+MainWindow .right.> TabProjects
+MainWindow .right.> TabAbout
+TabModels <.. LoadWindow
+LoadWindow .right...> MainWindow
+CSVReader <.. TabModels
+CSVWriter <.. TabModels
+Student <.. TabModels
+Subject <.. TabModels
+Participant <.. TabModels
+Project <.. TabModels
+OPTI .up.> LoadWindow
+TabProjects ..> AddWindow
+TabProjects ..> ViewWindow
+TabProjects ..> ModifyWindow
+TabGroups ..> AddWindow
+TabGroups ..> ViewWindow
+TabGroups ..> ModifyWindow
+TabParticipants ..> AddWindow
+TabParticipants ..> ViewWindow
+TabParticipants ..> ModifyWindow
+TabSubjects ..> AddWindow
+TabSubjects ..> ViewWindow
+TabSubjects ..> ModifyWindow
 '-----------------------------------
 @enduml
 '-----------------------------------
+

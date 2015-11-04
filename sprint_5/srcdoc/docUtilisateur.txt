@@ -1,0 +1,139 @@
+= Documentation SPRINT 3
+:Author:  Project group 1A3 - IUT Blagnac - DUT INFO S3/MPA
+:doctitle: User documentation of OPTI - Sprint 3
+:slideshowlocation: Your computer
+:copyright: {date={localdate}}, {slideshowlocation} *** {author} *** Powered by AsciiDoc and W3C Slidy &#169; 
+:revnumber: Sprint 3
+
+- Bourguet Guillaume
+- Bouveron Maxime
+- Bertin Mathieu
+- Heller Tanguy
+
+include::docConf.txt[]
+
+== Backlogs at the begining of the sprint 3
+
+
+- The initiales functionalities are tje following :
+
+
+	. List of subjects of "projet tuteuré" of the year
+	.. Create/Delete/Modify a subject
+	.. Listing the subjects using a filter
+	. Wishes of subjects by students teams
+  .. Define students teams
+	.. Link a student with a team
+	.. Define the wishes of a team
+	.. etc...
+	. Assign projects to students teams
+	.. Define (assign) a subject to a team
+	.. Listing the number of wishes by rank for a given subject
+	.. Listing for a given team the number of "competitors" per rank of wishe.
+	.. Listing the subjects taken / free
+	.. Listing the teams taken / free
+	.. Auto-calculation of pre-allocation "at the best" for a set of free teams
+	.. etc...
+	. Allocation of supervisors for each subject
+	.. Define the supervisor for a specific subject
+	.. Listing of subjects by supervisors
+	.. Listing of supervisors by projects
+	.. etc...
+
+
+== Launch OPTI
+
+- To launch the application you juste have to follow 3 simple steps :
+
+1) Open a command editor and tip "cd " in it, then Drag / drop the Sprint_3 from your computeur in the command editor window then press enter.
+
+image::launch1.png[]
+
+[NOTE]
+====
+Don't forget a space between "cd" and the drag/drop or it won't work !
+====
+
+image::launch2.png[]
+
+2) Tip "cd bin" and press enter again.
+
+image::launch3.png[]
+
+3) To finish write java Controler/OPTI and press enter one last time ! The application is working now.
+
+image::launch4.png[]
+
+[NOTE]
+====
+Be sure to respect upper cases.
+====
+
+== New Home
+
+- When you launch OPTI, you have to choose the path of the different document.csv you want to use.
+
+image::LOAD2.png[]
+
+- A default path exist so you can just launch it directly by clicking the "Create" button at the bottom.
+
+image::LOAD7.png[]
+
+== Lot of new tabs
+
+- OPTI have now three additionals tabs : subjects, groups and supervisors. You can access a tab by clicking on it.
+
+=== The subjects
+
+- Contains all the subjects of "projet tuteurés" for this year with the identificator, name and title.
+
+image::subjects.png[]
+
+=== The groups
+
+- Contains All the groups of students, with number, identificator, and name of students in each groups.
+
+image::groups.png[]
+
+=== The supervisors
+
+- Contains all the supervisors of "projet tuteurés" with the identificator
+
+image::supervisors.png[]
+
+== New functionalities too !
+
+- You can access these new functionalities by clicking on it at the bottom of the application. Moreover you can freely modify every line of each tab just by taping text in a cell.
+
+=== Add
+
+- The "Add" button will add an empty line AT THE END of the actual list.
+
+image::add.png[]
+
+[NOTE]
+====
+Remember that you can only add an empty line, and only in the last position of the tab.
+====
+
+=== Delete 
+
+- To delete a line, clic on the one you want to delete AND THEN press the "Delete".
+
+image::delete.png[]
+
+[NOTE]
+====
+Remember that you can only delete an entire line.
+====
+
+=== Save
+
+- The "Save" button will save the changes you just did, don't forget to use it AT THE END of your modifications.
+
+image::save.png[]
+
+[NOTE]
+====
+Remember that if you forget to use the "Save" functionality, you will lost your modifications.
+====

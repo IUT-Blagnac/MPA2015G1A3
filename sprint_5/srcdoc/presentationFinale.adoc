@@ -1,0 +1,41 @@
+= Projet MPA 2015
+
+
+image::images/groupe.jpg[]
+
+[square]
+- BERTIN Mathieu
+- BOURGUET Guillaume
+- BOUVERON Maxime
+- HELLER Tanguy
+
+== Sommaire
+    .Bilan fonctionnel
+    .
+
+== Bilan fonctionnel du projet
+
+    screenshots, comment ça fonctionne ?
+    Présenter l'application
+    
+== Bilan financier du projet
+
+    Estimation du nombre d'heures passées
+    Estimation du salaire de chaque personne
+    Total
+    
+== Bilan technique du projet
+
+    Ce que ça nous apporté au niveau technique
+    github, svn, java, eclipse etc.
+    
+== Bilan humain
+    
+    Ce que ça nous a apporté côté humain
+    Mieux travailler en équipe, sous contrainte ...
+    
+== Bilan global du projet
+
+    Ce que l'on a pensé du projet
+    
+    
