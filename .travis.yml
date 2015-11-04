@@ -15,3 +15,14 @@ script:
   - javac -cp .:./bin/ -d ./bin/ ./src/Models/Subject.java
   - javac -cp .:./bin/ -d ./bin/ ./src/Models/TabModels.java
   - javac -cp .:./bin/ -d ./bin/ ./src/Views/TabAbout.java
+
+  - javac -cp .:./bin/ -d ./bin/ ./src/Views/TabGroups.java
+  - javac -cp .:./bin/ -d ./bin/ ./src/Views/TabParticipants.java
+  - javac -cp .:./bin/ -d ./bin/ ./src/Views/TabSubjects.java
+  - javac -cp .:./bin/ -d ./bin/ ./src/Views/LoadWindow.java
+  - javac -cp .:./bin/ -d ./bin/ ./src/Views/AddWindow.java
+  - javac -cp .:./bin/ -d ./bin/ ./src/Views/MainWindow.java
+  - javac -cp .:./bin/ -d ./bin/ ./src/Views/ViewWindow.java
+  - javac -cp .:./bin/ -d ./bin/ ./src/Controler/OPTI.java
+
+  - javac -cp .:./bin/ -d ./bin/ ./src/OPTI.java
